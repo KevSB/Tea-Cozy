@@ -9,11 +9,14 @@ body {
 .header {
   display: flex;
   align-items: center;
+  position: fixed;
+  background-color: black;
   opacity: 0.9;
   width: 100%;
   height: 69px;
   margin: 0px;
   border-bottom: 1px solid seashell;
+  z-index: 20;
 }
 
 .logo {
@@ -35,6 +38,7 @@ body {
   display: flex;
   justify-content: center;
   width: 100%;
+  padding-top: 69px;
 }
 
 #mission {
@@ -53,11 +57,82 @@ body {
   width: 1200px;
 }
 
-h2 {
+.statement h2 {
   margin: 10px auto;
 
 }
 
-h4 {
+.statement h4 {
   margin: 10px auto;
+}
+
+#featured {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.tea {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1000px;
+}
+
+.tea h2 {
+  margin: 80px 0px 10px 0px;
+
+}
+
+.tea h4 {
+  margin: 10px 0px 20px 0px;
+}
+
+.triple {
+  display: flex;
+  justify-content: space-between;
+  width: 1000px;
+}
+
+.double {
+  display: flex;
+  justify-content: space-between;
+  width: 650px;
+}
+
+img {
+  height: 200px;
+  width: 300px;
+}
+
+.titles h4 {
+  text-align: center;
+  margin: 10px 0px 20px 0px;
+}
+
+#locations {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("../../resources/images/img-locations-background.jpg");
+  width: 1200px;
+  height: 500px;
+}
+
+.shops {
+  display: flex;
+  justify-content: space-between;
+  width: 980px;
+
+}
+
+.address {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  width: 300px;
+  height: 300px;
 }
