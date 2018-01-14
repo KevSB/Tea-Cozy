@@ -20,7 +20,7 @@ body {
 }
 
 .logo {
-  width: 1485px;
+  width: 1540px;
 }
 
 .logo img {
@@ -29,12 +29,18 @@ body {
 }
 
 .navigation {
-  margin-right: 10px;
+  display: flex;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  flex-shrink: 0;
+  width: 350px;
 }
 
 .navigation a {
   font-size: 22px;
-  padding-left: 20px;
   color: seashell;
 }
 
@@ -49,6 +55,7 @@ body {
   display: flex;
   align-items: center;
   background-image: url("../../resources/images/img-mission-background.jpg");
+  background-position: 50% 60%;
   width: 1200px;
   height: 700px;
 }
@@ -131,6 +138,7 @@ body {
   flex-direction: column;
   align-items: center;
   background-image: url("../../resources/images/img-locations-background.jpg");
+  background-position: 50% 14%;
   width: 1200px;
   height: 500px;
   }
